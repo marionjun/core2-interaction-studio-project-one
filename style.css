@@ -118,3 +118,49 @@ background-color: white;
     color: #000;
     cursor: pointer;
   }
+  /* Tablet */
+@media (max-width: 1024px) {
+.blockone{
+width: 100px;
+}
+.blocktwo {
+  width: 100px;
+}
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+.welcome{
+font-size: 53px;
+}
+.dreams {
+  font-size: 40px;
+}
+.fantasy {
+  font-size: 40px;
+}
+div#wrapper {
+  width: 480px;
+  height: 200px;
+  padding-bottom: 50px;
+}
+.blockone{
+  width: 50px;
+  }
+  .blocktwo {
+    width: 50px;
+  }
+#click {
+ width: 250px;
+ height: 70px;
+ left: calc(50% - 130px);
+ padding-top: 20px;
+}
+.letsgo {
+  font-size: 35px;
+}
+.img {
+  width: 450px;
+}
+
+}
