@@ -1,0 +1,120 @@
+body {
+    animation-name: bgColor-time-change;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.welcome {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 73px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    /* background: -webkit-linear-gradient(#ffc535, #ffde86);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.dreams {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(#ffde86, #ffa068);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fantasy {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(#ffde86, #ff85c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.letsgo {
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+}
+div#wrapper {
+    width: 800px;
+    height: 200px;
+   /* border: solid 1px #000;  */
+  margin: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  .img {
+    width: 900px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#click {
+    position:absolute;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+width: 350px;
+height: 90px;
+border: solid 5px #ffffff;
+left: calc(50% - 180px);
+top: calc(50% - 50px);
+border-radius: 50px;
+background-image: linear-gradient(#9fa6ed,#aad6fd, #ffc4d3);
+}
+
+.blockone {
+position: absolute;
+width: 290px;
+height: 6px;
+background-color: black;
+top: 176px;
+left: 50px;
+background-color: white;
+/* background-image: linear-gradient(to right, #ff7373 , #f6ac4e); */
+}
+.blocktwo {
+    position: absolute;
+    width: 290px;
+    height: 6px;
+    background-color: black;
+    top: 176px;
+    right: 50px;
+    background-color: white;
+    /* background-image: linear-gradient(to left, #ff7373 , #f6ac4e); */
+}
+
+@keyframes bgColor-time-change {
+    0% {
+      background-color: #fff167;
+    }
+    25% {
+      background-color: #d19fff;
+    }
+    50% {
+      background-color: #8fffd0;
+    }
+    75% {
+      background-color: #ff826c;
+    }
+    100% {
+      background-color: #74c6e7;
+    }
+  }
+  #click:hover {
+    background-image: linear-gradient(#ffdb00,#ffdb00, #ffdb00);
+    color: #000;
+    cursor: pointer;
+  }
